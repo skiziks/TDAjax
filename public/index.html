@@ -5,42 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./../src/style.css">
 </head>
 
 <body>
     <header>
         <h1>Le Monde Merveilleux de l’Imagination</h1>
+        <p class="p p--description">Découvrez un monde ou vous pouvez définir vos propres règles et façonner votre
+            univers
+            idéal selon vos envies !
+            <br>
+            Pour cela, essayez de cliquer sur les boutons latéraux.
+        </p>
     </header>
-    <p>Découvrez un monde ou vous pouvez définir vos propres règles et façonner votre univers idéal selon vos envies !
-        <br>
-        Pour cela, essayez de cliquer sur les boutons latéraux.
-    </p>
     <main>
-        <article>
-            <div>
+        <article class="article article--paysage">
+            <div class="div div--paysage">
                 <h2>Paysage</h2>
-                <img src="#" alt="fleche pointant vers les boutons paysage">
+                <svg class="svgFleche" xmlns="http://www.w3.org/2000/svg" width="47" height="61" viewBox="0 0 47 61"
+                    fill="none">
+                    <path
+                        d="M19.5 37.5C19.5 31.5 18 20.5 19.5 3.5C22.3 -1.3 25.6667 1.5 27 3.5V37.5C31 43.5 45 32.5 46 37.5C47 42.5 29.5 56 19.5 60C14 55.5 -1.99997 41 1.00003 37.5C4.00003 34 9.50001 37 19.5 37.5Z"
+                        fill="black" stroke="black" />
+                </svg>
                 <button>Montagne</button>
             </div>
-            <button>Ville</button>
+            <button class="button button-ville">Ville</button>
         </article>
 
-        <section>
-            <article class="article --parent">
-                <div class="svg1"><img src="#" alt="image de rendu de la demande utilisateur"></div>
-                <div class="svg2"><img src="#" alt="image de rendu de la demande utilisateur"></div>
-                <div class="svg3"><img src="#" alt="image de rendu de la demande utilisateur"></div>
-                <div class="svg4"><img src="#" alt="image de rendu de la demande utilisateur"></div>
-            </article>
+        <section class="section section--svgs">
+            <svg class="svg svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="345" height="277" viewBox="0 0 345 277" fill="none">
+                <path
+                    d="M274.826 1H1V274.826C1 274.826 69.4566 207.739 138.255 206.712C207.054 205.685 274.826 274.826 274.826 274.826C274.826 274.826 342.941 206.712 343.625 138.255C344.31 69.7989 274.826 1 274.826 1Z"
+                    fill="url(#pattern0)" stroke="black" />
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_13_12" transform="matrix(0.00337211 0 0 0.00421941 -0.297503 0)" />
+                    </pattern>
+                </defs>
+            </svg>
+            <svg class="svg svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="277" height="345" viewBox="0 0 277 345" fill="none">
+                <path
+                    d="M275.826 274.826L275.826 1L2.00003 0.999988C2.00003 0.999988 69.0875 69.4566 70.1143 138.255C71.1412 207.054 2.00002 274.826 2.00002 274.826C2.00002 274.826 70.1143 342.941 138.571 343.625C207.027 344.31 275.826 274.826 275.826 274.826Z"
+                    fill="url(#pattern0)" stroke="black" />
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_13_22" transform="matrix(0 -0.00378027 0.00302115 0 0 1.3241)" />
+                    </pattern>
+                </defs>
+            </svg>
+            <svg class="svg svg3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="345" height="277" viewBox="0 0 345 277" fill="none">
+                <path
+                    d="M69.8039 275.826L343.63 275.826L343.63 2.00003C343.63 2.00003 275.174 69.0875 206.375 70.1143C137.576 71.1412 69.8039 2.00001 69.8039 2.00001C69.8039 2.00001 1.68962 70.1143 1.00505 138.571C0.320471 207.027 69.8039 275.826 69.8039 275.826Z"
+                    fill="url(#pattern0)" stroke="black" />
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_13_23" transform="matrix(-0.00269996 0 0 -0.00337838 1.09804 1)" />
+                    </pattern>
+                </defs>
+            </svg>
+            <svg class="svg svg4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="277" height="345" viewBox="0 0 277 345" fill="none">
+                <path
+                    d="M0.999988 69.8039L1 343.63L274.826 343.63C274.826 343.63 207.739 275.174 206.712 206.375C205.685 137.576 274.826 69.8039 274.826 69.8039C274.826 69.8039 206.712 1.6896 138.255 1.00503C69.7988 0.320462 0.999988 69.8039 0.999988 69.8039Z"
+                    fill="url(#pattern0)" stroke="black" />
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_13_24" transform="matrix(0 0.00398493 -0.00318471 0 1 -0.376685)" />
+                    </pattern>
+                </defs>
+            </svg>
         </section>
 
-        <article>
-            <div>
+        <article class="article article--style">
+            <div class="div div--style">
                 <h2>Style</h2>
-                <img src="#" alt="fleche pointant vers les boutons de style">
+                <svg class="svgFleche" xmlns="http://www.w3.org/2000/svg" width="47" height="61" viewBox="0 0 47 61"
+                    fill="none">
+                    <path
+                        d="M19.5 37.5C19.5 31.5 18 20.5 19.5 3.5C22.3 -1.3 25.6667 1.5 27 3.5V37.5C31 43.5 45 32.5 46 37.5C47 42.5 29.5 56 19.5 60C14 55.5 -1.99997 41 1.00003 37.5C4.00003 34 9.50001 37 19.5 37.5Z"
+                        fill="black" stroke="black" />
+                </svg>
                 <button>Réaliste</button>
             </div>
-            <button>Cartoon</button>
+            <button class="button button--bottom">Cartoon</button>
         </article>
     </main>
 </body>
