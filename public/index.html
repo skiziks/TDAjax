@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./../src/style.css">
+    <link rel="stylesheet" href="./../src/styles/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -28,13 +29,24 @@
                         d="M19.5 37.5C19.5 31.5 18 20.5 19.5 3.5C22.3 -1.3 25.6667 1.5 27 3.5V37.5C31 43.5 45 32.5 46 37.5C47 42.5 29.5 56 19.5 60C14 55.5 -1.99997 41 1.00003 37.5C4.00003 34 9.50001 37 19.5 37.5Z"
                         fill="black" stroke="black" />
                 </svg>
-                <button>Montagne</button>
+                <button id="button--montagne" class="button button-ville">Montagne</button>
             </div>
-            <button class="button button-ville">Ville</button>
+            <button id="button--ville" class="button button-ville">Ville</button>
         </article>
 
-        <section class="section section--svgs">
-            <svg class="svg svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        <figure class="section section--svgs">
+            <article class="article articleTop">
+                <img id="img1" class="img img1" src="" alt="">
+                <img id="img2" class="img img2" src="" alt="">
+            </article>
+            <article class="article articleBot">
+                <img id="img3" class="img img3" src="" alt="">
+                <img id="img4" class="img img4" src="" alt="">
+            </article>
+
+
+
+            <!-- <svg class="svg svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 width="345" height="277" viewBox="0 0 345 277" fill="none">
                 <path
                     d="M274.826 1H1V274.826C1 274.826 69.4566 207.739 138.255 206.712C207.054 205.685 274.826 274.826 274.826 274.826C274.826 274.826 342.941 206.712 343.625 138.255C344.31 69.7989 274.826 1 274.826 1Z"
@@ -77,8 +89,8 @@
                         <use xlink:href="#image0_13_24" transform="matrix(0 0.00398493 -0.00318471 0 1 -0.376685)" />
                     </pattern>
                 </defs>
-            </svg>
-        </section>
+            </svg> -->
+        </figure>
 
         <article class="article article--style">
             <div class="div div--style">
@@ -89,11 +101,12 @@
                         d="M19.5 37.5C19.5 31.5 18 20.5 19.5 3.5C22.3 -1.3 25.6667 1.5 27 3.5V37.5C31 43.5 45 32.5 46 37.5C47 42.5 29.5 56 19.5 60C14 55.5 -1.99997 41 1.00003 37.5C4.00003 34 9.50001 37 19.5 37.5Z"
                         fill="black" stroke="black" />
                 </svg>
-                <button>Réaliste</button>
+                <button id="button--realiste" class="button button--bottom">Réaliste</button>
             </div>
-            <button class="button button--bottom">Cartoon</button>
+            <button id="button--cartoon" class="button button--bottom">Cartoon</button>
         </article>
     </main>
+    <script src="../src/js/index.js"></script>
 </body>
 
 </html>
