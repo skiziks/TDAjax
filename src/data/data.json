@@ -8,14 +8,14 @@
                 "réaliste"
             ],
             "imgs": [
-                "img8.jpg",
-                "img9.jpg",
-                "img10.jpg",
-                "img15.jpg",
-                "img16.jpg",
-                "img17.jpg",
-                "img18.jpg",
-                "img19.jpg"
+                "../src/images/img8.jpg",
+                "../src/images/img9.jpg",
+                "../src/images/img10.jpg",
+                "../src/images/img15.jpg",
+                "../src/images/img16.jpg",
+                "../src/images/img17.jpg",
+                "../src/images/img18.jpg",
+                "../src/images/img19.jpg"
             ]
         },
         {
@@ -26,15 +26,15 @@
                 "cartoon"
             ],
             "imgs": [
-                "img1.jpg",
-                "img2.jpg",
-                "img3.jpg",
-                "img4.jpg",
-                "img14.jpg",
-                "img21.jpg",
-                "img22.jpg",
-                "img23.jpg",
-                "img24.jpg"
+                "../src/images/img1.jpg",
+                "../src/images/img2.jpg",
+                "../src/images/img3.jpg",
+                "../src/images/img4.jpg",
+                "../src/images/img14.jpg",
+                "../src/images/img21.jpg",
+                "../src/images/img22.jpg",
+                "../src/images/img23.jpg",
+                "../src/images/img24.jpg"
             ]
         },
         {
@@ -45,16 +45,14 @@
                 "réaliste"
             ],
             "imgs": [
-                "img11.jpg",
-                "img8.jpg",
-                "img12.jpg",
-                "img13.jpg",
-                "img20.jpg",
-                "img31.jpg",
-                "img32.jpg",
-                "img33.jpg",
-                "img34.jpg",
-                "img35.jpg"
+                "../src/images/img11.jpg",
+                "../src/images/img12.jpg",
+                "../src/images/img13.jpg",
+                "../src/images/img31.jpg",
+                "../src/images/img32.jpg",
+                "../src/images/img33.jpg",
+                "../src/images/img34.jpg",
+                "../src/images/img35.jpg"
             ]
         },
         {
@@ -65,15 +63,15 @@
                 "cartoon"
             ],
             "imgs": [
-                "img5.jpg",
-                "img6.jpg",
-                "img7.jpg",
-                "img25.jpg",
-                "img26.jpg",
-                "img27.jpg",
-                "img28.jpg",
-                "img29.jpg",
-                "img30.jpg"
+                "../src/images/img5.jpg",
+                "../src/images/img6.jpg",
+                "../src/images/img7.jpg",
+                "../src/images/img25.jpg",
+                "../src/images/img26.jpg",
+                "../src/images/img27.jpg",
+                "../src/images/img28.jpg",
+                "../src/images/img29.jpg",
+                "../src/images/img30.jpg"
             ]
         },
         {
@@ -83,23 +81,23 @@
                 "ville"
             ],
             "imgs": [
-                "img1.jpg",
-                "img2.jpg",
-                "img3.jpg",
-                "img4.jpg",
-                "img8.jpg",
-                "img9.jpg",
-                "img10.jpg",
-                "img14.jpg",
-                "img15.jpg",
-                "img16.jpg",
-                "img17.jpg",
-                "img18.jpg",
-                "img19.jpg",
-                "img21.jpg",
-                "img22.jpg",
-                "img23.jpg",
-                "img24.jpg"
+                "../src/images/img1.jpg",
+                "../src/images/img2.jpg",
+                "../src/images/img3.jpg",
+                "../src/images/img4.jpg",
+                "../src/images/img8.jpg",
+                "../src/images/img9.jpg",
+                "../src/images/img10.jpg",
+                "../src/images/img14.jpg",
+                "../src/images/img15.jpg",
+                "../src/images/img16.jpg",
+                "../src/images/img17.jpg",
+                "../src/images/img18.jpg",
+                "../src/images/img19.jpg",
+                "../src/images/img21.jpg",
+                "../src/images/img22.jpg",
+                "../src/images/img23.jpg",
+                "../src/images/img24.jpg"
             ]
         },
         {
@@ -109,24 +107,23 @@
                 "montagnes"
             ],
             "imgs": [
-                "img5.jpg",
-                "img6.jpg",
-                "img7.jpg",
-                "img11.jpg",
-                "img12.jpg",
-                "img13.jpg",
-                "img20.jpg",
-                "img25.jpg",
-                "img26.jpg",
-                "img27.jpg",
-                "img28.jpg",
-                "img29.jpg",
-                "img30.jpg",
-                "img31.jpg",
-                "img32.jpg",
-                "img33.jpg",
-                "img34.jpg",
-                "img35.jpg"
+                "../src/images/img5.jpg",
+                "../src/images/img6.jpg",
+                "../src/images/img7.jpg",
+                "../src/images/img11.jpg",
+                "../src/images/img12.jpg",
+                "../src/images/img13.jpg",
+                "../src/images/img25.jpg",
+                "../src/images/img26.jpg",
+                "../src/images/img27.jpg",
+                "../src/images/img28.jpg",
+                "../src/images/img29.jpg",
+                "../src/images/img30.jpg",
+                "../src/images/img31.jpg",
+                "../src/images/img32.jpg",
+                "../src/images/img33.jpg",
+                "../src/images/img34.jpg",
+                "../src/images/img35.jpg"
             ]
         },
         {
@@ -136,27 +133,22 @@
                 "réaliste"
             ],
             "imgs": [
-                "img8.jpg",
-                "img9.jpg",
-                "img10.jpg",
-                "img11.jpg",
-                "img12.jpg",
-                "img13.jpg",
-                "img15.jpg",
-                "img16.jpg",
-                "img17.jpg",
-                "img18.jpg",
-                "img19.jpg",
-                "img20.jpg",
-                "img21.jpg",
-                "img22.jpg",
-                "img23.jpg",
-                "img24.jpg",
-                "img31.jpg",
-                "img32.jpg",
-                "img33.jpg",
-                "img34.jpg",
-                "img35.jpg"
+                "../src/images/img8.jpg",
+                "../src/images/img9.jpg",
+                "../src/images/img10.jpg",
+                "../src/images/img11.jpg",
+                "../src/images/img12.jpg",
+                "../src/images/img13.jpg",
+                "../src/images/img15.jpg",
+                "../src/images/img16.jpg",
+                "../src/images/img17.jpg",
+                "../src/images/img18.jpg",
+                "../src/images/img19.jpg",
+                "../src/images/img31.jpg",
+                "../src/images/img32.jpg",
+                "../src/images/img33.jpg",
+                "../src/images/img34.jpg",
+                "../src/images/img35.jpg"
             ]
         },
         {
@@ -166,20 +158,20 @@
                 "cartoon"
             ],
             "imgs": [
-                "img1.jpg",
-                "img2.jpg",
-                "img3.jpg",
-                "img4.jpg",
-                "img5.jpg",
-                "img6.jpg",
-                "img7.jpg",
-                "img14.jpg",
-                "img25.jpg",
-                "img26.jpg",
-                "img27.jpg",
-                "img28.jpg",
-                "img29.jpg",
-                "img30.jpg"
+                "../src/images/img1.jpg",
+                "../src/images/img2.jpg",
+                "../src/images/img3.jpg",
+                "../src/images/img4.jpg",
+                "../src/images/img5.jpg",
+                "../src/images/img6.jpg",
+                "../src/images/img7.jpg",
+                "../src/images/img14.jpg",
+                "../src/images/img25.jpg",
+                "../src/images/img26.jpg",
+                "../src/images/img27.jpg",
+                "../src/images/img28.jpg",
+                "../src/images/img29.jpg",
+                "../src/images/img30.jpg"
             ]
         }
     ]
