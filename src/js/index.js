@@ -64,7 +64,7 @@ function AjaxQuery(nomJSON) {
 
 
 // fonction qui va vérifier chaque boutons pour savoir si ils ont la classe "active" et si c'est le cas, elle va appeler la fonction AjaxQuery 
-//avec le nom du bouton en paramètre pour afficher les images correspondantes
+// avec le nom du bouton en paramètre pour afficher les images correspondantes
 function updateImagesBasedOnActiveButtons() {
     if (buttonMontagne.hasClass('active')) {
         if (buttonRealiste.hasClass('active')) {
@@ -92,8 +92,8 @@ function updateImagesBasedOnActiveButtons() {
 }
 
 
-// Enfin, lorsque la page est prête et afini de charger, j'appelle la fonction initialImages pour afficher les 4 images au démarrage de la page puis au clic sur un bouton, 
-//j'appelle la fonction updateImagesBasedOnActiveButtons qui va executer toute la logique du code pour afficher des images en fonctions du choix de l'utilisateur
+// Enfin, lorsque la page est prête et a fini de charger, j'appelle la fonction initialImages pour afficher les 4 images au démarrage de la page puis au clic sur un bouton, 
+// j'appelle la fonction updateImagesBasedOnActiveButtons qui va executer toute la logique du code pour afficher des images en fonctions du choix de l'utilisateur
 $(document).ready(function () {
     originalImageNumbers = generateUniqueRandomNumbers(4, 1, 35);
     initialImages(originalImageNumbers);
