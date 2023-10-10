@@ -1,3 +1,10 @@
+/* import une font que j'ai su rmon ordianteur dans le fichier du projet */
+
+@font-face {
+    font-family: 'coffe';
+    src: url('../fonts/CoffeCake.otf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +15,25 @@
 *::before,
 * {
     box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'coffe';
+    font-size: 4rem;
+    color: #2e2e2e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'coffe';
+    font-size: 3rem;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.blue {
+    color: #4F8FEF;
 }
 
 button {
